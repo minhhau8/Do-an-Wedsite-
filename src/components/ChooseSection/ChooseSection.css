@@ -1,0 +1,12 @@
+
+.elementor-counter-number strong {
+    font-weight: bold;
+    color: #333;
+    font-size: 200%;
+} 
+
+.elementor-counter-number-suffix strong {
+    font-weight: bold;
+    color: #333;
+    font-size: 200%;
+}

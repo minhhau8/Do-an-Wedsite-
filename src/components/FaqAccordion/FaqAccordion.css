@@ -1,0 +1,46 @@
+.faq-section p,
+.accordion {
+    width: 75%;
+}
+
+.accordion .accordion-button:focus,
+.accordion .accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.accordion .accordion-button:not(.collapsed)::after {
+    filter: invert();
+} 
+
+.faq-section {
+    padding: 30px;
+  }
+  
+  .faq-section h2 {
+    font-size: 2.0rem; 
+  }
+  
+  .faq-section p {
+    font-size: 1.5rem; 
+  }
+  
+  .faq-section .accordion.header {
+    font-size: 5rem; 
+  }
+  
+  .faq-section .accordion-body {
+    font-size: 1.2rem; 
+  }
+  
+
+@media only screen and (max-width: 992px) {
+    .faq-section p,
+    .accordion {
+        width: 100%;
+    }
+}

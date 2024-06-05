@@ -1,0 +1,72 @@
+.courses-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/anhcourses.jpg);
+}
+.page-container {
+    margin-bottom: 500px; /* Thêm khoảng cách giữa các page */
+  }
+  .btn-red {
+    background-color: red !important;
+    color: white !important;
+    border-color: red !important;
+  }
+  
+  .btn-red:hover {
+    background-color: #cc0000 !important;
+    color: white !important;
+    border-color: #cc0000 !important;
+  }
+  .course-register-form {
+    background-color: #c96e6e; /* Màu nền đỏ */
+    padding: 20px; /* Thêm khoảng cách xung quanh */
+    border-radius: 5px; /* Làm bo góc */
+  }
+  
+  .course-register-form .form-label,
+  .course-register-form .form-control {
+    color: #ffffff; /* Màu chữ trắng */
+  }
+  .elementor-widget-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .elementor-widget-wrap > div {
+    flex: 0 0 calc(50% - 10px);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .elementor-widget-wrap > div > .elementor-widget-container {
+    flex: 1;
+  }
+  .elementor-widget-text-editor ul li {
+    font-size: 20px;
+  }
+  
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 40px; /* Điều chỉnh khoảng cách từ dưới lên */
+    right: 40px; /* Đặt nút ở bên phải */
+    width: 70px; /* Tăng kích thước nút */
+    height: 70px; /* Tăng kích thước nút */
+    background-color: #c13b3b;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px; /* Căn giữa biểu tượng trong nút */
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  .scroll-to-top i {
+    font-size: 50px; /* Tăng kích thước biểu tượng */
+  }
+  
+  
+  
+
+    
+    
