@@ -11,21 +11,20 @@
     padding: 20px;
 }
 .contact-form .form-label {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
   }
 
 .contact-page {
     background:#e86270;
-    background-size: cover;
+    background-size: 200px;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 50px;
   }
   
   .contact-form {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 30px;
+    padding: 80px;
     border-radius: 40px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
@@ -39,7 +38,10 @@
     font-size: 30px;
     font-weight: bold;
   }
-  
+  .alert {
+    max-width: 100px;
+    font-size: 1rem;
+  }
 #contact-form .form-control:focus,
 #contact-form .form-select:focus {
     border-color: #dc3545;
@@ -48,7 +50,7 @@
 
 @media only screen and (max-width: 992px) {
     #contact-form {
-        width: 75%;
+        width: 65%;
     }
 }
 
