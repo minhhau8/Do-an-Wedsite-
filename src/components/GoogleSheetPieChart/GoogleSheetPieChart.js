@@ -7,8 +7,8 @@ const GoogleSheetPieChart = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const sheetId = '14Jw1JvRsEWlqphpzAk2xS8AWjk5SmsUkAfCVT5B0RaQ'; // Thay thế bằng Sheet ID của bạn
-      const apiKey = 'AIzaSyBut_XkysysWCsvReTyC_OVvN6HZp_rhFw'; // Thay thế bằng API key của bạn
+      const sheetId = '14Jw1JvRsEWlqphpzAk2xS8AWjk5SmsUkAfCVT5B0RaQ'; // Thay thế bằng Sheet ID 
+      const apiKey = 'AIzaSyBut_XkysysWCsvReTyC_OVvN6HZp_rhFw'; // Thay thế bằng API key 
       const range = 'E:E'; // Phạm vi dữ liệu cần lấy
 
       const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
@@ -17,7 +17,7 @@ const GoogleSheetPieChart = () => {
         const response = await axios.get(url);
         const rows = response.data.values;
         if (rows && rows.length > 1) {
-          const data = rows.slice(1); // Bỏ hàng đầu tiên (tiêu đề)
+          const data = rows.slice(1); 
           setData(data);
         } else {
           setData([]);
